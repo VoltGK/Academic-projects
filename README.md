@@ -1,30 +1,34 @@
-\# Academic Projects \& Coursework
+\# Event Registration System
 
 
 
-Welcome to my academic projects repository! This repository contains Python projects, CLI tools, and coursework completed during my software engineering studies.
+A CLI-based Python application built to manage event registrations, search participant records, and track event capacities easily.
 
 
 
-\## Project Directory
+\## Features
+
+\* \*\*Register Participants:\*\* Automatically generates a unique ID for each registered person.
+
+\* \*\*View All Participants:\*\* Displays a clean formatted table of everyone registered in the system.
+
+\* \*\*Search Participants:\*\* Search for registered users by their name.
+
+\* \*\*Filter by Event:\*\* View participants signed up for a specific event.
+
+\* \*\*Validation:\*\* Checks for valid emails, capacity limits, and ensures required fields are filled.
 
 
 
-|          **Project Name**         |                      **Description**                | **Language** |                          **Path**                                 |
-
-\------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-|   **Event Registration System**   | CLI application to manage participant registrations,|    Python    | \[`/Event\\\_registration\\\_system`](./Event\_registration\_system) | 
-
-&#x20;                              | search records,                                     |
-
-&#x09;				    | and track event capacity.                           |
-
-\-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\## How to Run
 
 
 
-\## Contact \& Links
+1\. Open your terminal inside the `Event\_registration\_system` folder.
 
-\***Developer**: MDM Gaurawa Kavinda
+2\. Run the script using Python:
+
+&#x20;  ```bash
+
+&#x20;  python event\_registration\_system.py
 
